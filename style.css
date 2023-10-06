@@ -1,0 +1,18 @@
+.img-zoom-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-zoom-container img {
+  max-width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.img-zoom-container:hover img {
+  transform: scale(1.2);
+}
